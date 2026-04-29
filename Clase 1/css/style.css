@@ -15,7 +15,6 @@ h2{
     background-color: goldenrod;
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
 
@@ -24,17 +23,13 @@ h2{
 }
 
 
-.nav{
-    list-style: none;
-    display: flex;
-    padding: 0px;
-    gap: 50px;
-    justify-content: center;
-}
 
 .main{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    
+
 }
 .usados-destacados{
     border: 2px solid black;
@@ -42,6 +37,7 @@ h2{
     box-sizing: border-box;
     
 }
+
 
 .nombreauto{
     text-align: center;
@@ -54,14 +50,14 @@ h2{
 }
 
 .fotofiesta{
+    align-items: center;
     height: 200px;
-    margin-left: 15px;
+    margin-left: 170px;
     }
 
 .box{
     border: 1px solid goldenrod;
     height: 300px;
-    width: 300px;
     margin: 30px;
 }
 .usados{
