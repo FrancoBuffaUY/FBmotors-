@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}  
+
+
+h2{
+    text-align: left;
+    background-color: goldenrod;
+
+}
+
+.container-fluid{
+    background-color: goldenrod;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+#navbarNavAltMarkup{
+    font-weight: normal;
+}
+
+
+.nav{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.usados-destacados{
+    border: 2px solid black;
+    margin: 30px;
+    box-sizing: border-box;
+    
+}
+
+.nombreauto{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.descripción{
+    text-align: center;
+    
+}
+
+.fotofiesta{
+    height: 200px;
+    margin-left: 15px;
+    }
+
+.box{
+    border: 1px solid goldenrod;
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+}
+.usados{
+    text-align: center;
+}
+
+
+.km-destacados{
+    border: 2px solid black;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.km{
+    text-align: center;
+}
+.sedanes-destacados{
+    border: 2px solid black;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.sedanes{
+    text-align: center;
+}
+
+.hatch-destacados{
+    border: 2px solid black;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.hatch{
+    text-align: center;
+}
+
+.Pick-ups{
+    border: 2px solid black;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.pick{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+.enlacesgenerales{
+    text-align: center;
+}
