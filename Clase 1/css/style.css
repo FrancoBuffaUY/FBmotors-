@@ -50,9 +50,12 @@ h2{
 }
 
 .fotofiesta{
+    display: flex;
     align-items: center;
     height: 200px;
-    margin-left: 170px;
+    padding-left: 200px;
+    
+
     }
 
 .box{
@@ -110,4 +113,20 @@ h2{
 
 .enlacesgenerales{
     text-align: center;
+}
+
+.form{
+    display: grid;
+    row-gap: 10px;
+    max-width: 350px;
+    margin: 0 auto;
+    }
+    
+
+.button{
+    display: block;
+    margin:25px auto 0 auto;
+    margin-bottom: 25px;
+    width: 60px;
+    
 }
