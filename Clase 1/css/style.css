@@ -22,7 +22,12 @@ h2{
     font-weight: normal;
 }
 
-
+.d-block {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
 
 .main{
     display: flex;
@@ -38,25 +43,6 @@ h2{
     
 }
 
-
-.nombreauto{
-    text-align: center;
-    padding-top: 20px;
-}
-
-.descripción{
-    text-align: center;
-    
-}
-
-.fotofiesta{
-    display: flex;
-    align-items: center;
-    height: 200px;
-    padding-left: 200px;
-    
-
-    }
 
 .box{
     border: 1px solid goldenrod;
@@ -77,35 +63,7 @@ h2{
 .km{
     text-align: center;
 }
-.sedanes-destacados{
-    border: 2px solid black;
-    margin: 30px;
-    box-sizing: border-box;
-}
 
-.sedanes{
-    text-align: center;
-}
-
-.hatch-destacados{
-    border: 2px solid black;
-    margin: 30px;
-    box-sizing: border-box;
-}
-
-.hatch{
-    text-align: center;
-}
-
-.Pick-ups{
-    border: 2px solid black;
-    margin: 30px;
-    box-sizing: border-box;
-}
-
-.pick{
-    text-align: center;
-}
 
 .footer{
     text-align: center;
