@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}  
+
+/* header */
+
+h2{
+    text-align: left;
+    background-color: goldenrod;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+}
+
+.container-fluid{
+    background-color: #daa520;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#navbarNavAltMarkup{
+
+    justify-content: end;
+    font-weight: normal;
+    
+}
+
+.d-block {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.body{
+background-color: #e0e0e0 
+;
+   
+}
+
+
+/* main */
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+}
+.usados-destacados{
+    
+    border: 2px solid black;
+    margin: 30px auto;
+    max-width: 1200px;
+    box-sizing: 1200px;
+    height: 675px;
+    width: 1200px;
+    border-radius: 20px;
+}
+
+#carouselExampleCaptions img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#carouselExampleCaptions2 img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box{
+    border: 1px solid goldenrod;
+    height: 1200px;
+    width: 675px;
+    margin: 30px;
+    border-radius: 20px;
+   
+}
+.usados{
+    text-align: center;
+}
+
+
+.km-destacados{
+    border: 2px solid black;
+    margin: 30px auto;
+    max-width: 1200px;
+    box-sizing: 1200px;
+    height: 675px;
+    width: 1200px;
+    border-radius: 20px;
+    
+}
+
+.km{
+    text-align: center;
+}
+
+.h5 {
+    color: white;
+    text-shadow:  -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.p {
+    color: white;
+    text-shadow:  -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+#planes{
+    text-align: center;
+    border: 1px solid black;
+    grid-column: 1/3;
+}
+
+.financiamiento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-width: 1200px;
+    box-sizing: 1200px;
+    height: 675px;
+    width: 1200px;
+    margin: 30px auto;
+    
+
+}
+.financiamiento1{
+    grid-column: 1/2;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(206, 174, 94);
+    margin: 30px;
+}
+
+.financiamiento2{
+    grid-column: 2/3;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(206, 174, 94);
+    margin: 30px;
+    
+}
+
+.mensaje{
+    grid-column: 1 / 3; 
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(206, 174, 94);
+    margin: 30px;
+
+
+}
+
+
+
+
+/* footer */
+
+.footer{
+    text-align: center;
+    
+}
+
+.enlacesgenerales{
+    text-align: center;
+    border-radius: 0px;
+    }
+
+.ulfooter{
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.form{
+    display: grid;
+    row-gap: 10px;
+    max-width: 350px;
+    margin: 0 auto;
+    }
+    
+
+.button{
+    display: block;
+    margin:25px auto 0 auto;
+    margin-bottom: 25px;
+    width: 60px;
+    
+}
+
+
+
+
+
