@@ -29,10 +29,11 @@ h2{
 }
 
 .d-block {
-    height: 500px;
+    height: auto;
     object-fit: cover;
     object-position: center;
     width: 100%;
+    display: block;
 }
 
 .body{
@@ -49,7 +50,7 @@ background-color: #e0e0e0;
   padding: 0 16px;   
   
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: 1fr;
   gap: 18px;
   
 }
@@ -59,15 +60,15 @@ background-color: #e0e0e0;
   border: 1px solid #e6e6e6;
   border-radius: 12px;
   overflow: hidden;
-  margin: 10px;
-  height: 300px;
-  width: 600px;
+  margin: 10px 0;
+  height: auto;
+  width: 100%;
   align-items: center;
   text-align: center;
 }
 .card img{
   width: 100%;
-  height: 350px;     
+  height: 220px;     
   object-fit: cover; 
   display: block;    
 }
@@ -105,23 +106,22 @@ background-color: #e0e0e0;
 }
 .usados-destacados{
     
-    border: 2px solid black;
-    margin: 30px auto;
-    max-width: 1200px;
-    box-sizing: 1200px;
-    height: 675px;
-    width: 1200px;
-    border-radius: 20px;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;          /* antes: 675px */
+  margin: 30px auto;
+  border-radius: 20px;
+
 }
 
 #carouselExampleCaptions img {
-    height: 600px;
+    
     width: 100%;
     object-fit: cover;
 }
 
 #carouselExampleCaptions2 img {
-    height: 600px;
+   
     width: 100%;
     object-fit: cover;
 }
@@ -140,14 +140,11 @@ background-color: #e0e0e0;
 
 
 .km-destacados{
-    border: 2px solid black;
-    margin: 30px auto;
-    max-width: 1200px;
-    box-sizing: 1200px;
-    height: 675px;
-    width: 1200px;
-    border-radius: 20px;
-    
+     width: 100%;
+  max-width: 1200px;
+  height: auto;          /* antes: 675px */
+  margin: 30px auto;
+  border-radius: 20px;
 }
 
 .km{
@@ -187,8 +184,8 @@ background-color: #e0e0e0;
     border-top-right-radius: 20px;
     max-width: 1200px;
     box-sizing: 1200px;
-    height: 675px;
-    width: 1200px;
+    height: auto;
+    width: 100%;
     margin: 30px auto;
     
 
@@ -237,6 +234,141 @@ background-color: #e0e0e0;
 
 }
 
+/* HERO */
+.hero{
+     
+  width: 100%;
+  padding: 100px 20px;
+  background:linear-gradient(180deg, #000000d2 0%, rgba(218, 165, 32, 0.705));
+}
+
+.hero{
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.hero-text h1{
+  font-size: clamp(28px, 3.2vw, 44px);
+  line-height: 1.05;
+  margin: 0 0 14px;
+  color: goldenrod;
+}
+
+.hero-text p{
+
+  font-size: 16px;
+  margin: 0 0 22px;
+  color: #ffffff;
+  
+}
+
+.hero-cta{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.btn{
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+}
+
+.btn:active{ transform: translateY(1px); }
+
+.btn{
+  background: #2563eb;
+  color: #fff;
+  border: 1px solid #1d4ed8;
+}
+
+.btn:hover{
+  background: #1d4ed8;
+}
+
+.btn-ghost{
+  background: transparent;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+  box-shadow: none;
+}
+
+.btn-ghost:hover{
+  background: rgba(37, 99, 235, 0.08);
+  box-shadow: none;
+}
+
+/* Puntos debajo del CTA */
+.hero-points{
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 0;
+  display: grid;
+  gap: 10px;
+}
+
+.hero-points li{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  color: #334155;
+  font-weight: 600;
+}
+
+.hero-points li::before{
+  content: "✓";
+  color: #16a34a;
+  font-weight: 900;
+}
+
+/* Imagen */
+.hero-image{
+  display: grid;
+  justify-items: center;
+}
+
+.hero-image img{
+  width: 100%;
+  max-width: 480px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.22);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+/* Responsive */
+@media (max-width: 900px){
+  .hero{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-cta{
+    justify-content: center;
+  }
+
+  .hero-image img{
+    height: 300px;
+  }
+
+  .hero-points{
+    justify-items: start;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
 
 
 
@@ -274,12 +406,28 @@ background-color: #e0e0e0;
     
 }
 
+/* media de mobile */
 
 @media (min-width: 700px){
   .cards{
-    grid-template-columns: repeat(2, 1fr); /* tablet */
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card img{
+    height: 260px;
+  }
+}
+@media (min-width: 1100px){
+  .cards{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card img{
+    height: 300px;
   }
 }
 
+/* media de desktop */
 
+@media (min-width: 700px){
+  .cards{ grid-template-columns: repeat(2, 1fr); }
+}
 
