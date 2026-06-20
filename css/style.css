@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }  
 
-/* header */
+/* Header */
 
 h2{
     text-align: left;
@@ -42,7 +42,7 @@ background-color: #e0e0e0;
 }
 
 
-/* main */
+/* Main */
 
 .cards{
   max-width: 1200px; 
@@ -108,7 +108,7 @@ background-color: #e0e0e0;
     
   width: 100%;
   max-width: 1200px;
-  height: auto;          /* antes: 675px */
+  height: auto;         
   margin: 30px auto;
   border-radius: 20px;
 
@@ -142,7 +142,7 @@ background-color: #e0e0e0;
 .km-destacados{
      width: 100%;
   max-width: 1200px;
-  height: auto;          /* antes: 675px */
+  height: auto;          
   margin: 30px auto;
   border-radius: 20px;
 }
@@ -306,7 +306,7 @@ background-color: #e0e0e0;
   box-shadow: none;
 }
 
-/* Puntos debajo del CTA */
+
 .hero-points{
   list-style: none;
   padding: 0;
@@ -373,7 +373,7 @@ background-color: #e0e0e0;
 
 
 
-/* footer */
+/* Footer */
 
 .footer{
     text-align: center;
